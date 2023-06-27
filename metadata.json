@@ -7,10 +7,10 @@
     "userMetadata": {},
     "modelName": "my-pose-model",
     "labels": [
-        "Class 3",
-        "Class 5",
-        "Class 7",
-        "Class 9"
+        "Pose 1",
+        "Pose 2",
+        "Pose 3",
+        "Pose 4"
     ],
     "modelSettings": {
         "posenet": {

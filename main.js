@@ -71,17 +71,17 @@ async function draw() {
   let x = noise(0,time)*width;
   let y = noise(time)*height;
  
-  if(topPrediction=="Class 3"){
+  if(topPrediction=="Pose 1"){
     flower(x,y,0,153,153);
   }
-  else if(topPrediction=="Class 5"){
+  else if(topPrediction=="Pose 2"){
     flower(x,y,120,120,100);
   }
-  else if(topPrediction=="Class 7"){
+  else if(topPrediction=="Pose 3"){
     flower(x,y,51,255,153);
 
   }
-  else if(topPrediction=="Class 9"){
+  else if(topPrediction=="Pose 4"){
   
   }
  time = time+0.01;
